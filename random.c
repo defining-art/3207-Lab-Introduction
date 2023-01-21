@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "random.h"
 
 void randChar() {
     srand(time(NULL));
